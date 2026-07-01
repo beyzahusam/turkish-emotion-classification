@@ -85,8 +85,6 @@ Bazı modellerin kullanılabilmesi için Hugging Face hesabı gerekebilir.
 hf_token = userdata.get("hf")
 ```
 
-Token değeri doğrudan notebook içine yazılmamalıdır.
-
 ---
 
 ## Notebookların Kullanımı 🚀
@@ -132,22 +130,18 @@ Bu notebook Mistral 7B modelinin LoRA/QLoRA ile eğitilmesi ve değerlendirilmes
 - BERTurk ve ELECTRA daha düşük kaynaklarla çalıştırılabilir.
 - LLaMA ve Mistral için GPU kullanılması gereklidir.
 - LLM modellerinde 4-bit quantization ve LoRA yaklaşımı kullanılmıştır.
-- Model ağırlıkları GitHub'a eklenmemelidir; Hugging Face üzerinde tutulmalıdır.
-- CSV raporları ve checkpoint klasörleri GitHub'a yüklenmemelidir.
 
 ---
 
 ## Çıktılar
 
-Notebooklar çalıştırıldığında aşağıdaki çıktılar üretilebilir:
+Notebooklar çalıştırıldığında aşağıdaki çıktılar üretilir:
 
 - Classification report
 - Confusion matrix
 - Yanlış tahminlerin CSV çıktısı
 - Inference time ölçümü
 - Eğitilmiş model/checkpoint klasörleri
-
-Bu çıktılar deney takibi için kullanılabilir, ancak GitHub reposuna eklenmeleri önerilmez.
 
 ---
 
