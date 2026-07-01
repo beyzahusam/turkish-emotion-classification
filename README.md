@@ -31,21 +31,6 @@ Proje kapsamında:
 
 ---
 
-## Dosya Yapısı 📁
-
-```text
-.
-├── app.ipynb                 # Eğitilmiş modellerle tahmin arayüzü
-├── berturk_electra.ipynb     # BERTurk ve ELECTRA eğitim/değerlendirme notebooku
-├── llama.ipynb               # LLaMA-3 LoRA eğitim/değerlendirme notebooku
-├── mistral.ipynb             # Mistral LoRA eğitim/değerlendirme notebooku
-├── requirements.txt          # Gerekli Python kütüphaneleri
-├── .gitignore                # GitHub'a eklenmemesi gereken dosyalar
-└── README.md                 # Proje açıklaması
-```
-
----
-
 ## Kullanılan Modeller 🤖
 
 | Model | Tür | Kullanım |
